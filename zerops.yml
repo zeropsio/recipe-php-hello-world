@@ -1,0 +1,7 @@
+zerops:
+  - setup: phpnginx0
+    build:
+      base: php@8.1
+      deploy: ./
+    run:
+      documentRoot: public
