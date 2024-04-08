@@ -1,0 +1,9 @@
+services:
+- hostname: helloworld
+  type: php@8.1
+  minContainers: 1
+  maxContainers: 3
+  ports:
+  - port: 80
+    httpSupport: true
+  buildFromGit: https://github.com/zeropsio/recipe-php-hello-world@main
