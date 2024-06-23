@@ -5,3 +5,6 @@ zerops:
       deploy: ./
     run:
       documentRoot: public
+      ports:
+        - port: 80
+          httpSupport: true
